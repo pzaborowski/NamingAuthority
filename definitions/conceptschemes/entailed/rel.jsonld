@@ -1,262 +1,6 @@
 [
   {
-    "@id": "http://www.opengis.net/def/rel/iana/1.0/describedby",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2020-06-10"
-      }
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/status": [
-      {
-        "@id": "http://www.opengis.net/def/status/valid"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Registered with IANA"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "describedby"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": " Refers to a resource providing information about the link’s context."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://www.opengis.net/def/rel"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@type": "https://www.iana.org/assignments/link-relations",
-        "@value": "describedby"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "describedby"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.opengis.net/def/rel/iana/1.0/prev",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2020-06-10"
-      }
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/status": [
-      {
-        "@id": "http://www.opengis.net/def/status/valid"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Registered with IANA"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "prev"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": " Indicates that the link’s context is a part of a series, and that the previous in the series is the link target. This relation is only used in examples."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://www.opengis.net/def/rel"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@type": "https://www.iana.org/assignments/link-relations",
-        "@value": "prev"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "prev"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.opengis.net/def/rel/iana/1.0/item",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2020-06-10"
-      }
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/status": [
-      {
-        "@id": "http://www.opengis.net/def/status/valid"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Registered with IANA"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "item"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": " The target IRI points to a resource that is a member of the collection represented by the context IRI."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://www.opengis.net/def/rel"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@type": "https://www.iana.org/assignments/link-relations",
-        "@value": "item"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "item"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.opengis.net/def/rel/iana/1.0/self",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2020-06-10"
-      }
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/status": [
-      {
-        "@id": "http://www.opengis.net/def/status/valid"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Registered with IANA"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "self"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": " Conveys an identifier for the link’s context."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://www.opengis.net/def/rel"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@type": "https://www.iana.org/assignments/link-relations",
-        "@value": "self"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "self"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.opengis.net/def/entities/bodies/ogcna",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ]
-  },
-  {
-    "@id": "http://www.opengis.net/def/rel/iana/1.0/collection",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2020-06-10"
-      }
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/status": [
-      {
-        "@id": "http://www.opengis.net/def/status/valid"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Registered with IANA"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "collection"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": " The target IRI points to a resource which represents the collection resource for the context IRI."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://www.opengis.net/def/rel"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@type": "https://www.iana.org/assignments/link-relations",
-        "@value": "collection"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "collection"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.opengis.net/def/rel/ogc/1.0/data",
+    "@id": "http://www.opengis.net/def/rel/ogc/1.0/exceptions",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -278,13 +22,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "data"
+        "@value": "exceptions"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": " Indicates that the link’s context is a distribution of a dataset that is an API and refers to the root resource of the dataset in the API."
+        "@value": "The target URI points to exceptions of a failed process."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -294,145 +38,21 @@
     ],
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@value": "data"
+        "@value": "exceptions"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "data"
+        "@value": "exceptions"
       }
     ]
   },
   {
-    "@id": "http://www.opengis.net/def/rel/ogc/1.0/items",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2020-06-10"
-      }
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/status": [
-      {
-        "@id": "http://www.opengis.net/def/status/proposed"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Not yet registered with IANA"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "items"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": " Refers to a resource that is comprised of members of the collection represented by the link’s context."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://www.opengis.net/def/rel"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "items"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "items"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.opengis.net/def/rel/iana/1.0/alternate",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2020-06-10"
-      }
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/status": [
-      {
-        "@id": "http://www.opengis.net/def/status/valid"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Registered with IANA"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "alternate"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": " Refers to a substitute for this context."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://www.opengis.net/def/rel"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@type": "https://www.iana.org/assignments/link-relations",
-        "@value": "alternate"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "alternate"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.opengis.net/def/rel",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/source": [
-      {
-        "@id": "http://www.opengis.net/def/entities/bodies/ogcna"
-      }
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/collectionView": [
+    "@id": "http://www.opengis.net/def/register/",
+    "http://www.w3.org/2004/02/skos/core#member": [
       {
         "@id": "http://www.opengis.net/def/rel/"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "OGC Link Relation Type Register"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "This is a register of link relation types used by OGC standards. "
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "OGC Link Relation Type Register"
       }
     ]
   },
@@ -537,7 +157,7 @@
     ]
   },
   {
-    "@id": "http://www.opengis.net/def/rel/iana/1.0/next",
+    "@id": "http://www.opengis.net/def/rel/iana/1.0/self",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -559,13 +179,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "next"
+        "@value": "self"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": " Indicates that the link’s context is a part of a series, and that the next in the series is the link target."
+        "@value": " Conveys an identifier for the link’s context."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -576,62 +196,13 @@
     "http://www.w3.org/2004/02/skos/core#notation": [
       {
         "@type": "https://www.iana.org/assignments/link-relations",
-        "@value": "next"
+        "@value": "self"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "next"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.opengis.net/def/rel/ogc/1.0/conformance",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://purl.org/dc/terms/created": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2020-06-10"
-      }
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/status": [
-      {
-        "@id": "http://www.opengis.net/def/status/proposed"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Not yet registered with IANA"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "conformance"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": " Refers to a resource that identifies the specifications that the link’s context conforms to."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://www.opengis.net/def/rel"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#notation": [
-      {
-        "@value": "conformance"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "conformance"
+        "@value": "self"
       }
     ]
   },
@@ -686,9 +257,166 @@
     ]
   },
   {
-    "@id": "http://www.opengis.net/def/rel/",
+    "@id": "http://www.opengis.net/def/rel/ogc/1.0/execute",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/proposed"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Not yet registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "execute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The target URI points to the execution endpoint of the server."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "execute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "execute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/ogc/1.0/conformance",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/proposed"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Not yet registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "conformance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": " Refers to a resource that identifies the specifications that the link’s context conforms to."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "conformance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "conformance"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/ogc/1.0/items",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/proposed"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Not yet registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "items"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": " Refers to a resource that is comprised of members of the collection represented by the link’s context."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "items"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "items"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "http://www.opengis.net/def/entities/bodies/ogcna"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/collectionView": [
+      {
+        "@id": "http://www.opengis.net/def/rel/"
+      }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
@@ -698,7 +426,46 @@
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "This is a register of link relation types used by OGC standards."
+        "@value": "This is a register of link relation types used by OGC standards. "
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "OGC Link Relation Type Register"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/iana/1.0/describedby",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "describedby"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": " Refers to a resource providing information about the link’s context."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -706,54 +473,215 @@
         "@id": "http://www.opengis.net/def/rel"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#member": [
+    "http://www.w3.org/2004/02/skos/core#notation": [
       {
-        "@id": "http://www.opengis.net/def/rel/ogc/1.0/conformance"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/ogc/1.0/data"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/ogc/1.0/items"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/iana/1.0/service-doc"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/iana/1.0/alternate"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/iana/1.0/service-desc"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/iana/1.0/self"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/iana/1.0/collection"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/iana/1.0/prev"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/iana/1.0/next"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/iana/1.0/describedby"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/iana/1.0/license"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/iana/1.0/item"
-      },
-      {
-        "@id": "http://www.opengis.net/def/rel/ogc/1.0/data-meta"
+        "@type": "https://www.iana.org/assignments/link-relations",
+        "@value": "describedby"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "OGC Link Relation Type Register"
+        "@value": "describedby"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/iana/1.0/alternate",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "alternate"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": " Refers to a substitute for this context."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@type": "https://www.iana.org/assignments/link-relations",
+        "@value": "alternate"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "alternate"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/ogc/1.0/results",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/proposed"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Not yet registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "results"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The target URI points to the results of a job."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "results"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "results"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/iana/1.0/item",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "item"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": " The target IRI points to a resource that is a member of the collection represented by the context IRI."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@type": "https://www.iana.org/assignments/link-relations",
+        "@value": "item"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "item"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/iana/1.0/prev",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "prev"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": " Indicates that the link’s context is a part of a series, and that the previous in the series is the link target. This relation is only used in examples."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@type": "https://www.iana.org/assignments/link-relations",
+        "@value": "prev"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "prev"
       }
     ]
   },
@@ -807,10 +735,342 @@
     ]
   },
   {
-    "@id": "http://www.opengis.net/def/register/",
+    "@id": "http://www.opengis.net/def/rel/iana/1.0/collection",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "collection"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": " The target IRI points to a resource which represents the collection resource for the context IRI."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@type": "https://www.iana.org/assignments/link-relations",
+        "@value": "collection"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "collection"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/ogc/1.0/data",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/proposed"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Not yet registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "data"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": " Indicates that the link’s context is a distribution of a dataset that is an API and refers to the root resource of the dataset in the API."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "data"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "data"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/iana/1.0/next",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "next"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": " Indicates that the link’s context is a part of a series, and that the next in the series is the link target."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@type": "https://www.iana.org/assignments/link-relations",
+        "@value": "next"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "next"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "OGC Link Relation Type Register"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "This is a register of link relation types used by OGC standards."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
-        "@id": "http://www.opengis.net/def/rel/"
+        "@id": "http://www.opengis.net/def/rel/ogc/1.0/exceptions"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/ogc/1.0/execute"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/ogc/1.0/job-list"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/ogc/1.0/processes"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/ogc/1.0/results"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/ogc/1.0/conformance"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/ogc/1.0/data"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/ogc/1.0/items"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/iana/1.0/service-doc"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/iana/1.0/alternate"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/iana/1.0/service-desc"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/iana/1.0/self"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/iana/1.0/collection"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/iana/1.0/prev"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/iana/1.0/next"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/iana/1.0/describedby"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/iana/1.0/license"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/iana/1.0/item"
+      },
+      {
+        "@id": "http://www.opengis.net/def/rel/ogc/1.0/data-meta"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "OGC Link Relation Type Register"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/ogc/1.0/processes",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/proposed"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Not yet registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "processes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The target URI points to the list of processes the API offers."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "processes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "processes"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/entities/bodies/ogcna",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/rel/ogc/1.0/job-list",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-06-10"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/proposed"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Not yet registered with IANA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "job-list"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The target URI points to the list of jobs."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/rel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "job-list"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "job-list"
       }
     ]
   }

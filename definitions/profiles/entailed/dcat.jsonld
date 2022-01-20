@@ -1,17 +1,126 @@
 [
   {
-    "@id": "http://www.opengis.net/def/metamodel/profiles",
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+    "@id": "http://www.w3.org/ns/dcat",
+    "@type": [
+      "http://purl.org/dc/terms/Standard",
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://www.w3.org/ns/dx/prof/Profile"
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
       {
-        "@id": "http://www.w3.org/ns/dcat"
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Data Catalog Vocabulary (DCAT)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://www.opengis.net/def/metamodel/profiles"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://www.opengis.net/def/metamodel/profiles/dcat"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Data Catalog Vocabulary (DCAT)"
+      }
+    ],
+    "http://www.w3.org/ns/dx/prof/hasResource": [
+      {
+        "@id": "_:n51bfe00ac8f648c3bac78f62b3592a5db1"
+      },
+      {
+        "@id": "_:n51bfe00ac8f648c3bac78f62b3592a5db2"
+      }
+    ],
+    "http://www.w3.org/ns/dx/prof/hasToken": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#token",
+        "@value": "dcat"
+      }
+    ]
+  },
+  {
+    "@id": "_:n51bfe00ac8f648c3bac78f62b3592a5db1",
+    "@type": [
+      "http://www.w3.org/ns/dx/prof/ResourceDescriptor"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/html"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Version 2, using same namespace and backwards compatible."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DCAT specification"
+      }
+    ],
+    "http://www.w3.org/ns/dx/prof/hasArtifact": [
+      {
+        "@id": "https://www.w3.org/TR/vocab-dcat-2/"
+      }
+    ],
+    "http://www.w3.org/ns/dx/prof/hasRole": [
+      {
+        "@id": "http://www.w3.org/ns/dx/prof/role/specification"
+      }
+    ]
+  },
+  {
+    "@id": "_:n51bfe00ac8f648c3bac78f62b3592a5db2",
+    "@type": [
+      "http://www.w3.org/ns/dx/prof/ResourceDescriptor"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://www.opengis.net/def/metamodel/profiles/json_ld_context"
+      },
+      {
+        "@id": "https://www.w3.org/TR/json-ld/"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "application/ld+json"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Proxy resource for JSON-LD context as authoritative resource not yet published"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DCAT JSON-LD Context"
+      }
+    ],
+    "http://www.w3.org/ns/dx/prof/hasArtifact": [
+      {
+        "@id": "https://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/dcat.jsonld"
+      }
+    ],
+    "http://www.w3.org/ns/dx/prof/hasRole": [
+      {
+        "@id": "http://www.w3.org/ns/dx/prof/role/implementation"
       }
     ]
   },
   {
     "@id": "http://www.opengis.net/def/metamodel/profiles/dcat",
     "@type": [
-      "http://purl.org/dc/terms/Standard",
       "http://www.w3.org/ns/dx/prof/Profile",
+      "http://purl.org/dc/terms/Standard",
       "http://www.w3.org/2002/07/owl#Ontology",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -57,119 +166,10 @@
     ]
   },
   {
-    "@id": "http://www.w3.org/ns/dcat",
-    "@type": [
-      "http://www.w3.org/ns/dx/prof/Profile",
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "http://purl.org/dc/terms/Standard"
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+    "@id": "http://www.opengis.net/def/metamodel/profiles",
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "http://www.opengis.net/def/status/valid"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@value": "Data Catalog Vocabulary (DCAT)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://www.opengis.net/def/metamodel/profiles"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://www.opengis.net/def/metamodel/profiles/dcat"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@value": "Data Catalog Vocabulary (DCAT)"
-      }
-    ],
-    "http://www.w3.org/ns/dx/prof/hasResource": [
-      {
-        "@id": "_:n60bc835723634e0f979c7efc20facf57b1"
-      },
-      {
-        "@id": "_:n60bc835723634e0f979c7efc20facf57b2"
-      }
-    ],
-    "http://www.w3.org/ns/dx/prof/hasToken": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#token",
-        "@value": "dcat"
-      }
-    ]
-  },
-  {
-    "@id": "_:n60bc835723634e0f979c7efc20facf57b1",
-    "@type": [
-      "http://www.w3.org/ns/dx/prof/ResourceDescriptor"
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@value": "text/html"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Version 2, using same namespace and backwards compatible."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "DCAT specification"
-      }
-    ],
-    "http://www.w3.org/ns/dx/prof/hasArtifact": [
-      {
-        "@id": "https://www.w3.org/TR/vocab-dcat-2/"
-      }
-    ],
-    "http://www.w3.org/ns/dx/prof/hasRole": [
-      {
-        "@id": "http://www.w3.org/ns/dx/prof/role/specification"
-      }
-    ]
-  },
-  {
-    "@id": "_:n60bc835723634e0f979c7efc20facf57b2",
-    "@type": [
-      "http://www.w3.org/ns/dx/prof/ResourceDescriptor"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-        "@id": "https://www.w3.org/TR/json-ld/"
-      },
-      {
-        "@id": "http://www.opengis.net/def/metamodel/profiles/json_ld_context"
-      }
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@value": "application/ld+json"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Proxy resource for JSON-LD context as authoritative resource not yet published"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "DCAT JSON-LD Context"
-      }
-    ],
-    "http://www.w3.org/ns/dx/prof/hasArtifact": [
-      {
-        "@id": "https://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/dcat.jsonld"
-      }
-    ],
-    "http://www.w3.org/ns/dx/prof/hasRole": [
-      {
-        "@id": "http://www.w3.org/ns/dx/prof/role/implementation"
+        "@id": "http://www.w3.org/ns/dcat"
       }
     ]
   }
